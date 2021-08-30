@@ -1,9 +1,10 @@
 const { path } = require('@vuepress/utils')
+const sideBarConfig = require("./sidebar")
 
 module.exports = {
   lang: 'vi-VN',
   title: 'leUniversity',
-  description: 'This is my first VuePress site',
+  description: 'Cổng thông tin đại học',
 
   dest: 'public',
 
@@ -14,9 +15,19 @@ module.exports = {
         componentsDir: path.resolve(__dirname, './components'),
       },
     ],
+    [
+      "vuepress-plugin-auto-sidebar",
+      {
+        title: {
+          mode: "titlecase",
+          map: {
+            "/dai-hoc/": "Đại học",
+            "/dai-hoc/mien-bac/": "Miền Bắc",
+          }
+        },
+      }
+    ],
   ],
-
-  theme: path.resolve(__dirname, './theme'),
 
   themeConfig: {
     logo: 'https://vuejs.org/images/logo.png',
@@ -56,6 +67,7 @@ module.exports = {
         ],
       },
     ],
+    sidebar: sideBarConfig,
 
   },
 }

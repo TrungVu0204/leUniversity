@@ -1,10 +1,10 @@
-# Đại học Hà Nội
+# Điểm chuẩn Đại học Hà Nội
 
 | Mã trường  | Tên trường |
 |--- |--- |
-|QH|[Đại học Quốc gia Hà Nội](./QH.md)|
+|QH|Đại học Quốc gia Hà Nội|
 |QHI|Trường Đại học Công nghệ - ĐHQG Hà Nội|
-|QHT|Trường ĐH Khoa học Tự nhiên - ĐHQG Hà Nội|
+|QHT|[Trường ĐH Khoa học Tự nhiên - ĐHQG Hà Nội](QHT.md)|
 |QHX|Trường ĐH Khoa học Xã hội và Nhân văn - ĐHQG Hà Nội|
 |QHE|Trường Đại học Kinh tế - ĐHQG Hà Nội|
 |QHF|Trường Đại học Ngoại ngữ - ĐHQG Hà Nội|
@@ -42,7 +42,7 @@
 |DKK|Trường Đại học Kinh tế Kỹ thuật Công nghiệp|
 |KHA|Trường Đại học Kinh tế Quốc dân|
 |DKS|Trường Đại học Kiểm sát Hà Nội|
-|KTA|Trường Đại học Kiến trúc Hà Nội|
+|KTA|[Trường Đại học Kiến trúc Hà Nội](KTA.md)|
 |DLX|Trường Đại học Lao động Xã hội|
 |LNH|Trường Đại học Lâm nghiệp|
 |LPH|Trường Đại học Luật Hà Nội|
