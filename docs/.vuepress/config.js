@@ -5,6 +5,8 @@ module.exports = {
   title: 'leUniversity',
   description: 'This is my first VuePress site',
 
+  dest: 'public',
+
   plugins: [
     [
       '@vuepress/register-components',
