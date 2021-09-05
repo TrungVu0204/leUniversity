@@ -80,7 +80,7 @@ module.exports = {
         children: [
           {
             text: 'Tính điểm',
-            link: '/tools/calculator/',
+            link: '/cong-cu/tinh-diem',
           }
         ],
       },

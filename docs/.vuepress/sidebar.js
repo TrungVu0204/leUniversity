@@ -96,6 +96,17 @@ module.exports = {
       ]
     }
   ],
+  "/cong-cu/": [
+    {
+      "text": "Cong Cu",
+      "title": "Cong Cu",
+      "collapsable": false,
+      "sidebarDepth": 1,
+      "children": [
+        "tinh-diem.md"
+      ]
+    }
+  ],
   "/dai-hoc/": [
     {
       "text": "Đại học",
