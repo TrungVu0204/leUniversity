@@ -8,6 +8,8 @@ module.exports = {
 
   dest: 'public',
 
+  theme: path.resolve(__dirname, './theme'),
+
   plugins: [
     [
       '@vuepress/register-components',
@@ -68,6 +70,5 @@ module.exports = {
       },
     ],
     sidebar: sideBarConfig,
-
   },
 }
