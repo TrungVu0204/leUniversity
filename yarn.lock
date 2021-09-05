@@ -819,9 +819,9 @@
     "lodash" "^4.17.14"
 
 "autoprefixer@^10.3.1":
-  "integrity" "sha512-yRzjxfnggrP/+qVHlUuZz5FZzEbkT+Yt0/Df6ScEMnbbZBLzYB2W0KLxoQCW+THm1SpOsM1ZPcTHAwuvmibIsQ=="
-  "resolved" "https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.3.3.tgz"
-  "version" "10.3.3"
+  "integrity" "sha512-EKjKDXOq7ug+jagLzmnoTRpTT0q1KVzEJqrJd0hCBa7FiG0WbFOBCcJCy2QkW1OckpO3qgttA1aWjVbeIPAecw=="
+  "resolved" "https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.3.4.tgz"
+  "version" "10.3.4"
   dependencies:
     "browserslist" "^4.16.8"
     "caniuse-lite" "^1.0.30001252"

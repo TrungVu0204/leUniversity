@@ -1,5 +1,16 @@
+---
+sidebar: false
+landingButton:
+  - title: "Miền Bắc"
+    link: mien-bac/
+  - title: "Miền Trung"
+    link: mien-trung/
+  - title: "Miền Nam"
+    link: mien-nam/
+---
+
 # Đại học
 
 le đại học là gì...
 
-Bạn muốn học đại học ở: [Miền Bắc](mien-bac/), [Miền Trung](mien-bac/), [Miền Bắc](mien-bac/),  
+<LandingAction />

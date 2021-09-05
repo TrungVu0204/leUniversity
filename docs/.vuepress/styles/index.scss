@@ -1,5 +1,10 @@
+// import da fonts
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 // light theming variables
 :root {
+    scroll-behavior: smooth;
+
     // brand colors
     --c-brand: #3eaf7c;
     --c-brand-light: #4abf8a;
@@ -58,7 +63,7 @@
     --code-ln-wrapper-width: 3.5rem;
 
     // font vars
-    --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans",
+    --font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans",
         "Droid Sans", "Helvetica Neue", sans-serif;
     --font-family-code: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
 

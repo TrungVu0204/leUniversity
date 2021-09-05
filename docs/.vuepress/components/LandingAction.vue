@@ -34,6 +34,10 @@
         grid-template-columns: repeat(3, 1fr);
         grid-auto-rows: 1fr;
         grid-gap: 2rem;
+
+        @media screen and (max-width: 720px) {
+        grid-template-columns: repeat(1, 1fr);
+        }
     }
 
     .card {
@@ -42,6 +46,11 @@
         border-radius: 0.5rem;
         padding: 1rem;
         text-align: center;
+        transition: all 300ms ease;
+
+        &:hover {
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
 
         h3, 
         p {

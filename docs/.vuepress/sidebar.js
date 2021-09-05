@@ -65,6 +65,15 @@ module.exports = {
       ]
     }
   ],
+  "/thu-tuc-ho-so/": [
+    {
+      "text": "Thu Tuc Ho So",
+      "title": "Thu Tuc Ho So",
+      "collapsable": false,
+      "sidebarDepth": 1,
+      "children": []
+    }
+  ],
   "/diem-chuan/": [
     {
       "text": "Diem Chuan",
@@ -73,6 +82,17 @@ module.exports = {
       "sidebarDepth": 1,
       "children": [
         "README.md"
+      ]
+    }
+  ],
+  "/nganh-hoc/": [
+    {
+      "text": "Nganh Hoc",
+      "title": "Nganh Hoc",
+      "collapsable": false,
+      "sidebarDepth": 1,
+      "children": [
+        "khoi-thi.md"
       ]
     }
   ],

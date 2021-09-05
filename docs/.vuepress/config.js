@@ -8,8 +8,6 @@ module.exports = {
 
   dest: 'public',
 
-  theme: path.resolve(__dirname, './theme'),
-
   plugins: [
     [
       '@vuepress/register-components',
@@ -27,6 +25,11 @@ module.exports = {
             "/dai-hoc/mien-bac/": "Miền Bắc",
           }
         },
+        ignore: [
+          {
+            menu: "/thu-tuc-ho-so/",
+          }
+        ]
       }
     ],
   ],
@@ -38,6 +41,10 @@ module.exports = {
         text: 'Trường',
         children: [
           {
+            text: 'Đại học vs. Cao đẳng',
+            link: '/dai-hoc-vs-cao-dang.md',
+          },
+          {
             text: 'Đại học',
             link: '/dai-hoc/',
           },
@@ -48,8 +55,17 @@ module.exports = {
         ],
       },
       {
-        text: 'Điểm chuẩn',
-        link: '/diem-chuan/',
+        text: 'Thông tin chung',
+        children: [
+          {
+            text: 'Điểm chuẩn',
+            link: '/diem-chuan/',
+          },
+          {
+            text: 'Khối thi',
+            link: '/nganh-hoc/khoi-thi.md',
+          }
+        ],
       },
       {
         text: 'Tin tức',
@@ -57,7 +73,7 @@ module.exports = {
       },
       {
         text: 'Thủ tục/ Hồ sơ',
-        link: '/documents/',
+        link: '/thu-tuc-ho-so/',
       },
       {
         text: 'Công cụ',

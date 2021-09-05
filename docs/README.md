@@ -6,24 +6,24 @@ heroImage: /images/hero.png
 footer: MIT Licensed | Copyright © Catouberos
 
 landingButton:
-  - title: "Chọn trường"
-    description: "About app-related things"
-    link: /tim-truong
-  - title: "Thông tin"
-    description: "Fix common issues"
-    link: /help/guides/troubleshooting/
-  - title: "Phương thức tuyển sinh"
-    description: "Extensive guides written for you"
-    link: /help/guides/getting-started/
+  - title: "Tìm trường"
+    description: "Xem lựa chọn Đại học, Cao đẳng hoặc Du học"
+    link: /truong/
+  - title: "Điểm chuẩn"
+    description: "Điểm chuẩn thi vào các trường mới nhất"
+    link: /diem-chuan/
+  - title: "Khối thi Đại học"
+    description: "Các khối thi Đại học và môn thi"
+    link: /nganh-hoc/khoi-thi.md
   - title: "Thủ tục / hồ sơ"
-    description: "Alternative versions"
-    link: /forks/
+    description: "Một số thủ tục và hồ sơ cần thiết để bắt đầu"
+    link: /thu-tuc-ho-so/
   - title: "Công cụ tính điểm"
-    description: "Help contribute to the app"
-    link: /help/contribution/
+    description: "Nhập và tính điểm xét tuyển ưu tiên Đại học"
+    link: /cong-cu/tinh-diem.md
   - title: "Tin tức"
-    description: "Primary communication platform"
-    link: https://discord.gg/tachiyomi
+    description: "Các tin tức cập nhật về tuyển sinh, du học"
+    link: /tin-tuc
 ---
 
 <LandingAction />
